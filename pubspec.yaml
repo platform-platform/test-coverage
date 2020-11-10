@@ -11,7 +11,10 @@ executables:
   test_coverage:
 
 dependencies:
-  coverage: ^0.13.0
+  coverage:
+    git:
+      url: https://github.com/dart-lang/coverage
+      ref: 3dd55046117786ea7a7fb92bc812a2a5e25643b
   path: ^1.6.1
   lcov: ^5.3.0
   glob: ^1.1.7
